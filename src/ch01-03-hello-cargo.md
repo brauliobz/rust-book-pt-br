@@ -91,7 +91,9 @@ our project *hello_cargo*, and Cargo creates its files in a directory of the
 same name.
 -->
 
-TODO
+O primeiro comando cria um novo diretório chamado *ola_cargo*. Demos o nome
+de *ola_cargo* ao nosso projeto e o Cargo criou seus arquivos num diretório
+de mesmo nome.
 
 <!--
 Go into the *hello_cargo* directory and list the files. You’ll see that Cargo
@@ -99,7 +101,9 @@ has generated two files and one directory for us: a *Cargo.toml* file and a
 *src* directory with a *main.rs* file inside.
 -->
 
-TODO
+Entre no diretório *ola_cargo* e liste os arquivos. Você verá que o Cargo
+gerou para nós dois arquivos e um diretório: um arquivo *Cargo.toml* e um
+diretório *src* que contém arquivo *main.rs*.
 
 <!--
 It has also initialized a new Git repository along with a *.gitignore* file.
@@ -107,7 +111,10 @@ Git files won’t be generated if you run `cargo new` within an existing Git
 repository; you can override this behavior by using `cargo new --vcs=git`.
 -->
 
-TODO
+Ele também inicializou um novo repositório Git em conjunto com um arquivo
+*.gitignore*. Arquivos Git não serão gerados caso você rode `cargo new` dentro
+de um repositório Git pré-existente. Você pode evitar esse comportamento
+usando `cargo new --vcs=git`.
 
 <!--
 > Note: Git is a common version control system. You can change `cargo new` to
